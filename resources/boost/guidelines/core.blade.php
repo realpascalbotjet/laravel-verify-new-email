@@ -1,10 +1,10 @@
-{{-- Laravel Verify New Email Guidelines for AI Code Assistants --}}
-{{-- Source: https://github.com/protonemedia/laravel-verify-new-email --}}
-{{-- License: MIT | (c) ProtoneMedia --}}
+{-- Laravel Verify New Email Guidelines for AI Code Assistants --}
+{-- Source: https://github.com/protonemedia/laravel-verify-new-email --}
+{-- License: MIT | (c) ProtoneMedia --}
 
 ## Laravel Verify New Email
 
-- Extends Laravel’s email verification flow to verify *new* email addresses before replacing the current one.
-- Always activate the `laravel-verify-new-email-development` skill when making package-specific changes.
-- For the trait API, verification flow, configuration, and customization points, consult:
+- This project uses **Laravel Verify New Email** (ProtoneMedia) in a Laravel application.
+- Activate the **`laravel-verify-new-email-development`** skill when you are **integrating, configuring, or using** this package in app code (controllers, jobs, tests, config, routes, Blade, etc.).
+- Use the reference doc for the package’s public API and common recipes:
   - `resources/boost/skills/laravel-verify-new-email-development/references/laravel-verify-new-email-guide.md`

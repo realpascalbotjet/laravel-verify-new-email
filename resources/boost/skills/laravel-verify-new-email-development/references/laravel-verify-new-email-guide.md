@@ -161,9 +161,3 @@ return [
 - **Migrations:** the feature depends on the `pending_user_emails` table. Ensure publishing/running migrations is documented.
 - **URL expiry:** if users report expired links, verify `auth.verification.expire`.
 - **Mail customization:** if switching to custom Mailables, ensure token + signed URL generation remains correct.
-
-## Testing
-
-```bash
-composer test
-```
