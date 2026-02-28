@@ -4,7 +4,5 @@
 
 ## Laravel Verify New Email
 
-- This project uses **Laravel Verify New Email** (ProtoneMedia) in a Laravel application.
-- Activate the **`laravel-verify-new-email-development`** skill when you are **integrating, configuring, or using** this package in app code (controllers, jobs, tests, config, routes, Blade, etc.).
-- Use the reference doc for the package’s public API and common recipes:
-  - `resources/boost/skills/laravel-verify-new-email-development/references/laravel-verify-new-email-guide.md`
+- `protonemedia/laravel-verify-new-email.` helps you work with Laravel Verify New Email in Laravel.
+- Always activate the `laravel-verify-new-email-development` skill when working with Laravel Verify New Email configuration, integration, or any code that relies on this package.
