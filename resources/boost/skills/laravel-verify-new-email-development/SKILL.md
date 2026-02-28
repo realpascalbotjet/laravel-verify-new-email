@@ -1,6 +1,6 @@
 ---
 name: laravel-verify-new-email-development
-description: Development guidance for protonemedia/laravel-verify-new-email. Adds an email-change verification flow for Laravel applications.
+description: Development guidance for protonemedia/laravel-verify-new-email (verify updated email addresses).
 license: MIT
 metadata:
   author: ProtoneMedia
@@ -9,18 +9,12 @@ metadata:
 
 # Laravel Verify New Email Development
 
-## Overview
-Use this skill when changing package code, docs, tests, or release tooling for protonemedia/laravel-verify-new-email.
-
-## When to Activate
-- You are modifying code in this repository.
-- You are reviewing/triaging issues or PRs for this package.
-- You are preparing a release (version bump, tag, changelog).
+Use this skill when changing code/docs/tests in `protonemedia/laravel-verify-new-email`.
 
 ## Workflow
-1. Skim the README / docs to confirm the public contract.
-2. Read references/laravel-verify-new-email-guide.md for common patterns and pitfalls.
-3. Keep changes small, add/update tests when behavior changes, and avoid breaking API changes.
+1. Treat the README as the source of truth for the verification flow and customization points.
+2. Consult `references/laravel-verify-new-email-guide.md` for trait methods, routes, mailables, and config.
+3. Preserve security properties (signed URLs, expiry) and backwards-compatible behavior.
 
-## References
+## Reference
 - references/laravel-verify-new-email-guide.md
