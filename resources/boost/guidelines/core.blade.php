@@ -1,14 +1,8 @@
-{{--
-  Laravel Boost guidelines (repository core)
+{{-- Laravel Verify New Email Guidelines for AI Code Assistants --}}
+{{-- Source: https://github.com/protonemedia/laravel-verify-new-email --}}
+{{-- License: MIT | (c) ProtoneMedia --}}
 
-  This file intentionally stays small: it links this repository to its package-specific Boost skill.
---}}
+## Laravel Verify New Email
 
-<section>
-    <h2>Repository development skill</h2>
-
-    <p>
-        When working on this repository, activate the <code>laravel-verify-new-email-development</code> skill.
-        It contains package-specific conventions, testing notes, and common pitfalls.
-    </p>
-</section>
+- Adds email change verification flow for Laravel applications.
+- Always activate the `laravel-verify-new-email-development` skill when making package-specific changes.

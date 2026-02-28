@@ -1,19 +1,15 @@
-# laravel-verify-new-email development guide
+# Laravel Verify New Email Reference
 
-For full documentation, see the README: https://github.com/protonemedia/laravel-verify-new-email#readme
+Complete reference for `protonemedia/laravel-verify-new-email`. Full documentation: https://github.com/protonemedia/laravel-verify-new-email#readme
 
-## At a glance
-Adds support for verifying **new** email addresses before replacing the old email on the user model.
+## Start Here
+- README / docs: https://github.com/protonemedia/laravel-verify-new-email#readme
 
-## Local setup
-- Install dependencies: `composer install`
-- Keep the dev loop package-focused (avoid adding app-only scaffolding).
+## Notes for AI Assistants
+- Treat the README as the source of truth for the supported public API.
+- Keep changes backward-compatible unless the change is explicitly a breaking change.
 
 ## Testing
-- Run: `composer test` (preferred) or the repository’s configured test runner.
-- Add regression tests for bug fixes.
+- Run the repository test command (see README / composer scripts).
 
-## Notes & conventions
-- Keep route/notification behavior stable; it's user-facing.
-- Verify flows: unauthenticated verification, auto-login, expiration, and security tokens.
-- Ensure compatibility across supported Laravel versions.
+For detailed usage examples and the full API surface, refer to the README.
