@@ -4,5 +4,5 @@
 
 ## Laravel Verify New Email
 
-- Adds email change verification flow for Laravel applications.
+- Adds an email-change verification flow for Laravel applications.
 - Always activate the `laravel-verify-new-email-development` skill when making package-specific changes.
