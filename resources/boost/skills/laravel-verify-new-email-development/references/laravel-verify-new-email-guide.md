@@ -1,10 +1,6 @@
 # Laravel Verify New Email Reference
 
-Complete reference for `protonemedia/laravel-verify-new-email.`. Full documentation: https://github.com/protonemedia/laravel-verify-new-email#readme
-
-Complete reference for `protonemedia/laravel-verify-new-email`.
-
-Primary docs: https://github.com/protonemedia/laravel-verify-new-email#readme
+Complete reference for `protonemedia/laravel-verify-new-email`. Full documentation: https://github.com/protonemedia/laravel-verify-new-email#readme
 
 ## What this package does
 
